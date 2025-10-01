@@ -3,6 +3,7 @@ import mongoose from 'mongoose';
 import cors from 'cors';
 import helmet from 'helmet';
 import authRoutes from './routes/auth';
+import todoRoutes from './routes/todos';
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -22,9 +23,10 @@ app.get('/health', (req, res) => {
 });
 
 app.use('/api/auth', authRoutes);
+app.use('/api/todos', todoRoutes);
 
 app.get('/', (req, res) => {
-  res.json({ message: 'Welcome to the User API' });
+  res.json({ message: 'Welcome to the Todo API' });
 });
 
 const connectDB = async (): Promise<void> => {
