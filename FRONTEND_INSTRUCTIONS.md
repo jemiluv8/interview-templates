@@ -1,9 +1,7 @@
-- Complete the auth page by sending the form data to the relevant
-api endpoint in the backend api. On success navigate to a page that 
-informs user that login has succeeded. Show error messages on the form
-
-- Create a page to do CRUD on todo's
+- Create a page to do CRUD on todo's - in order or priority as follows
   - a list view to list todos
+  - support filtering by priority
   - support marking todo as done/cancelled
   - support deleting todo
-  - support filtering by priority
+
+- use axios

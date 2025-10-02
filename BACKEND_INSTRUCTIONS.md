@@ -7,10 +7,12 @@ Add more actions to the todos resource as follows:
     status - Filter by status
     priority - Filter by priority
 - support filtering todo's by status and priority
+
+BONUS FEATURES - If you have time
 - support deleting todos
 - support editing todo title and status
-
 
 ### Non-functional instructions
 - create any files you deem fit.
 - try to adhere to some conventions as much as possible
+
