@@ -6,11 +6,12 @@ Add more actions to the todos resource as follows:
     limit - Items per page (default: 10)
     status - Filter by status
     priority - Filter by priority
-- support filtering todo's by status and priority
+    return pagination information to UI so UI can know
+    - if there is a next page
+    - how many items are available in total that match their query
+    - how many items were returned by api
 
-BONUS FEATURES - If you have time
-- support deleting todos
-- support editing todo title and status
+    - Ensure Offset-based pagination is fully supported
 
 ### Non-functional instructions
 - create any files you deem fit.
