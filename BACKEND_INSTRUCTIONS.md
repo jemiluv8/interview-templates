@@ -13,6 +13,10 @@ Add more actions to the todos resource as follows:
 
     - Ensure Offset-based pagination is fully supported
 
+BONUS
+- support in-memory cache for processing requests.
+  - console.log cache hits and cache misses
+
 ### Non-functional instructions
 - create any files you deem fit.
 - try to adhere to some conventions as much as possible
