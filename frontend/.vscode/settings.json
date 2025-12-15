@@ -1,0 +1,19 @@
+{
+  "editor.inlineSuggest.enabled": false,
+
+  // GitHub Copilot
+  "github.copilot.enable": { "*": false },
+  "github.copilot.inlineSuggest.enable": false,
+
+  // Amazon CodeWhisperer (via AWS Toolkit)
+  "aws.codeWhisperer.enabled": false,
+  "aws.codeWhisperer.inlineSuggestionsEnabled": false,
+
+  // Codeium
+  "codeium.enabled": false,
+  "codeium.enableAutocomplete": false,
+
+  // Tabnine
+  "tabnine.enable": false,
+  "tabnine.inlineSuggestion.enabled": false
+}

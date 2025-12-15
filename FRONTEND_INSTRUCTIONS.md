@@ -6,7 +6,6 @@
   - BONUS
     - support editing to do title
     - support editing todo title, priority and status
-    - support pagination
     - support user entry for number of items per row
 
 - use axios

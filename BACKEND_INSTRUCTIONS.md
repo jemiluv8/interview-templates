@@ -1,7 +1,7 @@
 Add more actions to the todos resource as follows:
 
-- listing todo's
-    Query Parameters for GET /api/todos:
+- listing todo's - GET /api/todos
+    Query Parameters:
     page - Page number (default: 1)
     limit - Items per page (default: 10)
     status - Filter by status
@@ -19,5 +19,5 @@ BONUS
 
 ### Non-functional instructions
 - create any files you deem fit.
-- try to adhere to some conventions as much as possible
+- try to adhere to similar conventions in the codebase as much as possible
 
